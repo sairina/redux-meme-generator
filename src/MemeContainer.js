@@ -24,7 +24,8 @@ function MemeContainer() {
       bottom={meme.bottom}
       url={meme.url}
       deleteMeme={() => deleteMeme(meme.id)} />
-  ))
+  ));
+  
   return (
     <div className="MemeContainer">
       <h2>Meme Generator!</h2>
