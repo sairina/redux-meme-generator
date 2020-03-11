@@ -1,8 +1,9 @@
-.MemeContainer h2 {
-  margin-top: 40px;
+.MemeContainer-Form-Container {
+  background-color: lightgray;
+  padding-top: 30px;
 }
 
 .MemeContainer-List {
-  margin-top: 40px;
+  margin-top: 30px;
   display: inline-block;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Meme.css';
+import Button from 'react-bootstrap/Button';
 
 function Meme({ deleteMeme, top, bottom, url }) {
   return (
@@ -10,7 +11,7 @@ function Meme({ deleteMeme, top, bottom, url }) {
         <div className="Meme-Bottom">{bottom}</div>
       </div>
       <div className="Meme-Btn">
-        <button onClick={deleteMeme}>Delete</button>
+        <Button variant="danger" onClick={deleteMeme}>Delete</Button>
       </div>
     </div>
   );

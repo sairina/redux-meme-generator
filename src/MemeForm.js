@@ -23,7 +23,7 @@ function MemeForm({ add }) {
   };
 
   return (
-    <div className="Form" style={{maxWidth: '600px'}}>
+    <div className="Form" style={{maxWidth: '600px', marginBottom: '30px'}}>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="top">
           <Form.Label>Text on top</Form.Label>

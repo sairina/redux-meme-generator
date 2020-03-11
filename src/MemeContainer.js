@@ -25,17 +25,19 @@ function MemeContainer() {
       url={meme.url}
       deleteMeme={() => deleteMeme(meme.id)} />
   ));
-  
+
   return (
     <div className="MemeContainer">
-      <h2>Meme Generator!</h2>
-      <Row>
-        <Col></Col>
-        <Col xs={6}>
-          <MemeForm add={add} />
-        </Col>
-        <Col></Col>
-      </Row>
+      <div className="MemeContainer-Form-Container">
+        <h2>Meme Generator!</h2>
+        <Row>
+          <Col></Col>
+          <Col xs={6}>
+            <MemeForm add={add} />
+          </Col>
+          <Col></Col>
+        </Row>
+      </div>
       <div className="MemeContainer-List">
         {memeList}
       </div>
